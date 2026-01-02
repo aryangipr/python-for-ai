@@ -7,3 +7,4 @@ timestamp,place,latitude,longitude,selected_csv,plot_image,raw_json
 20260102_180122,"Germany, Germany",51.5,10.5,"plots\Germany,_Germany_data_selected_20260102_180122.csv","plots\Germany,_Germany_temperature_plot_20260102_180122.png","plots\Germany,_Germany_data_raw_20260102_180122.json"
 20260102_180846,"India, India",22.0,79.0,"plots\India,_India_data_selected_20260102_180846.csv","plots\India,_India_temperature_plot_20260102_180846.png","plots\India,_India_data_raw_20260102_180846.json"
 20260102_201637,bhgalpur,28.6519,77.2315,plots\bhgalpur_data_selected_20260102_201637.csv,plots\bhgalpur_temperature_plot_20260102_201637.png,plots\bhgalpur_data_raw_20260102_201637.json
+20260102_204834,"Bhagalpur, India",25.24446,86.97183,"plots\Bhagalpur,_India_data_selected_20260102_204834.csv","plots\Bhagalpur,_India_temperature_plot_20260102_204834.png","plots\Bhagalpur,_India_data_raw_20260102_204834.json"
