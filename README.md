@@ -1,4 +1,4 @@
-# python-for-ai — Deployment
+wather-viewer — Deployment
 
 This repository is a small Flask app that fetches historical weather data and generates plots and CSVs.
 
