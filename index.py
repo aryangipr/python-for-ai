@@ -5,7 +5,7 @@ import get_data
 
 app = Flask(__name__)
 
-
+#what we if you visit the root URL
 @app.route('/', methods=['GET'])
 def form():
 	return render_template('index.html')
