@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: python-for-ai
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app.index:app -b 0.0.0.0:$PORT

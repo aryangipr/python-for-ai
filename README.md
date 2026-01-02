@@ -54,6 +54,20 @@ Heroku / Platform-as-a-Service
 --------------------------------
 This repo contains a `Procfile` so Heroku can run `gunicorn index:app`. Push to a Heroku remote and the platform will install `requirements.txt` and run the `web` process.
 
+Render (recommended)
+--------------------
+Render can build and run this repo directly from GitHub. I added `render.yaml` so Render will pick up build/start settings automatically.
+
+Steps to deploy on Render:
+1. Go to https://dashboard.render.com and sign in / create an account.
+2. Click "New" → "Web Service" → "Connect a repository" and select this repository.
+3. Render should detect `render.yaml`. If not, set:
+	- Build Command: `pip install -r requirements.txt`
+	- Start Command: `gunicorn app.index:app -b 0.0.0.0:$PORT`
+4. Create the service and wait for the build and deploy to finish. Your app will be available at the Render URL.
+
+Note: No environment variables are required by default but you can add them in the Render dashboard if needed.
+
 Notes, recommendations, and housekeeping
 ---------------------------------------
 - `plots/` contains runtime output; add it to `.gitignore` if you don't want these files committed.
