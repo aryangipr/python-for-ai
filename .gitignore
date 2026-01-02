@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime outputs
+plots/
+saved_data_log.csv
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# SQLite cache
+.cache.sqlite

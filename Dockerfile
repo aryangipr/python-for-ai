@@ -22,4 +22,4 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 5000
 
 # Run with gunicorn referencing the Flask app in index.py
-CMD ["gunicorn", "index:app", "-b", "0.0.0.0:5000", "--workers", "2"]
+CMD ["gunicorn", "app.index:app", "-b", "0.0.0.0:5000", "--workers", "2"]
